@@ -1,0 +1,79 @@
+.container{
+  padding: 80px 120px;
+}
+
+/* bootstrap doesn't have person as a class, you can create your own class and definite it in css custom sheet */
+.person{
+border: 10px solid transparent;
+margin-bottom: 25px;
+height:80%
+opacity: 0.7;
+}
+
+.person:hover{
+border-color: #f1f1f1;
+}
+
+
+/*GOOGLE FONT START*/
+
+/*GOOGLE FONT END*/
+
+
+/* COMMENT OUT ACCORDIAN START
+/*  ACCORDIAN START
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 0px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+}
+
+
+ACCORDIAN END */
+/* COMMENT OUT ACCORDIAN END */
+
+
+
+/*  start CSS FOR parralax*/
+.parallax {
+    /* The image used */
+    background-image: url('images/carousel/flower2.gif');
+
+
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+
+/*  end CSS FOR parralax*/

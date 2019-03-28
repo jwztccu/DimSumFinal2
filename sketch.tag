@@ -1,3 +1,4 @@
+<sketch-tagtest>
 var eggTart;
 var potSticker;
 var sesameBall;
@@ -108,3 +109,4 @@ function playAudio(audioFile) {
 //START//
 
 //END//
+</sketch-tagtest>
